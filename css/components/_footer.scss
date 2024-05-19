@@ -1,0 +1,17 @@
+@use "../abstracts/variables" as var;
+
+.footer{
+    
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    padding: var.$gutter-base;
+    margin-left: var.$gutter-base;
+    // margin-top: 50%;
+
+    @media (max-width: 768px) {
+       display: none;
+    }
+    
+}
